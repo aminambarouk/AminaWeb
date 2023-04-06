@@ -1,0 +1,42 @@
+.search-header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 100px 100px 10px 100px;
+    font-size: 80px;
+}
+
+.search-input {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 40%;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px -7px #000;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    border-style: 1px solid;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.image-search {
+    padding-right: 180px;
+    padding-left: 180px;
+    display: flex;
+    justify-content: right;
+}
